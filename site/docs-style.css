@@ -1,0 +1,4 @@
+/* Hide the top-right index/members dropdown */
+.tsd-index-group {
+  display: none !important;
+}

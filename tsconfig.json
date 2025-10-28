@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "ES2022",                // Modern JS output
+    "module": "ESNext",                // Keep as ES module
+    "declaration": true,               // Generate type definitions
+    "outDir": "lib",                  // Build output
+    "strict": true,                    // Enable all strict checks
+    "esModuleInterop": true,           // Allow import of CJS modules
+    "moduleResolution": "node",        // Node module resolution
+    "skipLibCheck": true,              // Speed up type checking for deps
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src",     // library source
+    "test"     // test scripts
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "test"
+  ]
+}

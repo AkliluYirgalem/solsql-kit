@@ -1,0 +1,8 @@
+{
+  "name": "SolSQL",
+  "readme": "./site/index.md",
+  "out": "docs",
+  "disableSources": true,
+  "hideGenerator": true,
+  "visibilityFilters": {},
+}

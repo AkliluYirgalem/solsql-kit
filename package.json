@@ -1,0 +1,43 @@
+{
+  "name": "solsql-kit",
+  "version": "0.1.0",
+  "description": "a client-side library for solsql",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.mjs",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/esm/index.mjs",
+      "require": "./lib/cjs/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup && mv lib/esm/index.d.mts lib/index.d.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "pnpm exec typedoc --options typedoc.json",
+    "docs:watch": "pnpm exec typedoc --options typedoc.json --watch",
+    "docs:serve": "serve docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.18.2",
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "eslint": "^9.37.0",
+    "prettier": "^3.6.2",
+    "serve": "^14.2.5",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.6",
+    "typedoc": "^0.28.14",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@dao-xyz/borsh": "^5.2.4",
+    "@solana-program/system": "^0.9.0",
+    "@solana/kit": "^4.0.0",
+    "@solana/transactions": "^4.0.0",
+    "bs58": "^6.0.0",
+    "solsql-kit": "file:solsql-kit-0.0.1.tgz"
+  }
+}
