@@ -18,7 +18,7 @@
     "docs:watch": "pnpm exec typedoc --options typedoc.json --watch",
     "docs:serve": "serve docs"
   },
-  "keywords": [],
+  "keywords": ["solana", "web3", "sql", "solsql"],
   "author": "",
   "license": "MIT",
   "packageManager": "pnpm@10.18.2",
