@@ -4,7 +4,7 @@ It can serve as a drop-in replacement for the SQL systems used in traditional we
 ### Installation
 
 ```bash
-pnpm add -D solsql-kit
+pnpm add solsql-kit
 ```
 
 ### Connection
