@@ -37,7 +37,6 @@
     "@solana-program/system": "^0.9.0",
     "@solana/kit": "^4.0.0",
     "@solana/transactions": "^4.0.0",
-    "bs58": "^6.0.0",
-    "solsql-kit": "file:solsql-kit-0.0.1.tgz"
+    "bs58": "^6.0.0"
   }
 }
