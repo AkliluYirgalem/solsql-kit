@@ -1,6 +1,6 @@
 {
   "name": "solsql-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a client-side library for solsql",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.mjs",
